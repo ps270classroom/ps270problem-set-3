@@ -158,7 +158,7 @@ Repeat the same analysis as in the previous question but this time with respect 
 - `"2. $100k - $150k"` when `income` is between \$100,000 and \$150,000, and
 - `"3. Over $150k"` when `income` is over \$150,000.
 
-Remember to save the output to the `trains` name. Use this variable along with the approach in the previous question to create a tibble called `ate_income` (replacing `college` with `income_group`) that has four rows corresponding to the three unique values of `income_group` and four columns:  `income_group`, `Treated`,  `Control`, and `ATE` (all defined similarly to the previous question). 
+Remember to save the output to the `trains` name. Use this variable along with the approach in the previous question to create a tibble called `ate_income` (replacing `college` with `income_group`) that has three rows corresponding to the three unique values of `income_group` and four columns:  `income_group`, `Treated`,  `Control`, and `ATE` (all defined similarly to the previous question). 
 
 Use the `ate_income` tibble to produce a barplot (using `ggplot`) of the ATE for each income group and assigning the plot to the name `income_plot`. Be sure to include informative labels for the x and y axes, along with a title. 
 

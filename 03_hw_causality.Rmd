@@ -11,6 +11,8 @@ options(width = 100)
 
 ## Background
 
+NOTE: When submitting the pdf on gradescope, make sure you assign pages to the relevant questions. [Instructions *here*.](https://guides.gradescope.com/hc/en-us/articles/21864315441677-Submitting-a-PDF-for-an-assignment) **Rubric**: 1pt
+
 A professor in the Government department at Harvard, Ryan Enos, conducted a randomized field experiment assessing the extent to which exposure to demographic change affected the political views of individuals living in suburban communities around Boston, Massachusetts.
 
 > This exercise is based on: Enos, R. D. 2014. “[Causal Effect of  Intergroup Contact on Exclusionary Attitudes.](http://dx.doi.org/10.1073/pnas.1317670111)” *Proceedings of the National Academy of Sciences* 111(10): 3699–3704.
@@ -185,10 +187,10 @@ Please write your answer below.
 ## Answer 7
 
 
-
 \newpage
 
 # Code Printout (DO NOT EDIT BELOW THIS)
+
 ```{r print-code, ref.label=knitr::all_labels(), echo = TRUE, eval=FALSE}
 
 ```
